@@ -1,12 +1,26 @@
-# hello-ci-demo
+## React Hello World (Vite)
 
-Very simple Flask "hello world" web app.
+Quick start:
 
-## Run locally
+1. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+2. Start the dev server
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open the app
+
+   Visit the printed local URL (typically `http://localhost:5173`) and you should see "Hello World".
+
+Build for production:
 
 ```bash
-python3 -m venv venv
-. venv/bin/activate
-pip install -r requirements.txt
-python app.py
-
+npm run build
+npm run preview
+```
