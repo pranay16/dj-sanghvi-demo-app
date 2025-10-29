@@ -3,7 +3,7 @@ import './App.css'
 function App() {
   return (
     <div>
-      Hello World AWHAtever
+      Hello World should be auto
     </div>
   )
 }
